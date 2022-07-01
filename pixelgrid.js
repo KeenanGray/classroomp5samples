@@ -34,10 +34,3 @@ function draw() {
   }
 }
 
-function paintWithPixels()
-{
-
-  
-}
-
-
