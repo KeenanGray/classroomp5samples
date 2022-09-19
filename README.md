@@ -13,3 +13,7 @@ Links to the samples below. Links marked "template" are designed for students to
 [1 Dimensional Image](https://editor.p5js.org/KeenanGray/sketches/_y79PWKJG)
 
 [Computation Portraits -- Template](https://editor.p5js.org/KeenanGray/sketches/fVMVGCosq)
+
+[Google Sheets Example](https://editor.p5js.org/KeenanGray/sketches/eJJIPaicL)
+
+[Google Sheets Map Example](https://editor.p5js.org/KeenanGray/sketches/soBt8pgx4)
