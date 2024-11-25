@@ -6,14 +6,10 @@
 
 Links to the samples below. Links marked "template" are designed for students to modify
 
-[Pixel Magnifier](https://editor.p5js.org/KeenanGray/sketches/54rVWzktU)
+[Pixel Magnifier](https://editor.p5js.org/keenangray12/sketches/QMg7wKkL9)
 
-[Pixel Grid](https://editor.p5js.org/KeenanGray/sketches/fpWmv6rYh)
+[Pixel Grid]([https://editor.p5js.org/KeenanGray/sketches/fpWmv6rYh](https://editor.p5js.org/keenangray12/sketches/MUw5jg8fD))
 
-[1 Dimensional Image](https://editor.p5js.org/KeenanGray/sketches/_y79PWKJG)
+[1 Dimensional Image]([https://editor.p5js.org/KeenanGray/sketches/_y79PWKJG](https://editor.p5js.org/keenangray12/sketches/pJrxcRq7p))
 
-[Computation Portraits -- Template](https://editor.p5js.org/KeenanGray/sketches/fVMVGCosq)
-
-[Google Sheets Example](https://editor.p5js.org/KeenanGray/sketches/eJJIPaicL)
-
-[Google Sheets Map Example](https://editor.p5js.org/KeenanGray/sketches/soBt8pgx4)
+[Computation Portraits]([https://editor.p5js.org/KeenanGray/sketches/fVMVGCosq](https://editor.p5js.org/keenangray12/sketches/GTnQ9aOSm))
