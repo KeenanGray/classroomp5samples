@@ -1,37 +1,41 @@
 function preload() {
-  frog = loadImage("https://sep.yimg.com/ty/cdn/madisonartshop/most-famous-paintings-2.jpg?t=1628119938");
+  frog = loadImage(
+    "https://www.pbs.org/wnet/nature/files/2021/05/frog-1280x720.png"
+  );
 }
 
 let img;
 function setup() {
-  nW = 10
-  nH = 10
-  createCanvas(frog.width * nW, 512);
+  //width of the lines to draw horizontally
+  lineWidth = 10;
+
+  //size of the pixel grid for the sample
+  pixelsWide = 10;
+  pixelsTall = 10;
+
+  createCanvas((pixelsWide*pixelsTall)*lineWidth , frog.height);
+
   pixelDensity(1);
-  frameRate(24) 
+  frameRate(24);
 }
 
 function draw() {
-  background(220)
+  background(220);
   //image(frog, 0, 0, width, height);
-  
-  //draw a grid over the image
 
+  rowWidth = int(frog.width / pixelsWide);
+  rowHeight = int(frog.height / pixelsTall);
+
+  noStroke();
   
-  rW = frog.width/(nW)
-  rH = frog.height/nH
-  
-  for(i = 0;i<nW;i++){
-    for(j = 0; j<nH;j++)
-      {
-        x = i*rW
-        y = j*rH
-        //noStroke()
-        //fill the rect with the color at the center of each rectangle
-        fill(frog.get(x+rW/2,y+rH/2))
-        rect(x + j*rW*10,0, rW,512)
-      }
+  for (i = 0; i < pixelsWide; i++) {
+    for (j = 0; j < pixelsTall; j++) {
+      x = i * rowWidth;
+      y = j * rowHeight;
+
+      //fill the rect with the color at the center of each rectangle
+      fill(frog.get(x + rowWidth / 2, y + rowHeight / 2));
+      rect((i + (j * pixelsWide)) * lineWidth, 0, lineWidth, height);
+    }
   }
 }
-
-
