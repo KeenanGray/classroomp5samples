@@ -1,5 +1,5 @@
 function preload() {
-  frog = loadImage("https://assets.editor.p5js.org/5e3187eff3594000177d90e2/28c8bbe2-9e10-47a1-8cde-a49ef72c23c2.png");
+  frog = loadImage("https://www.pbs.org/wnet/nature/files/2021/05/frog-1280x720.png");
 }
 
 let img;
@@ -15,22 +15,21 @@ function draw() {
   
   //draw a grid over the image
   
-  nW = 10
-  nH = 10
+  pixelsWide = 60
+  pixelsTall = 60
   
-  rW = width/nW
-  rH = height/nH
+  rowWidth = (int) (width/pixelsWide)
+  rowHeight = int(height/pixelsTall)
   
-  for(i = 0;i<nW;i++){
-    for(j = 0; j<nH;j++)
+  for(i = 0;i<pixelsWide;i++){
+    for(j = 0; j<pixelsTall;j++)
       {
-        x = i*rW
-        y = j*rH
-        noStroke()
+        x = i*rowWidth
+        y = j*rowHeight
+        noStroke(0)
         //fill the rect with the color at the center of each rectangle
-        fill(frog.get(x+rW/2,y+rH/2))
-        rect(x,y, rW,rH)
+        fill(frog.get(x+rowWidth/2,y+rowHeight/2))
+        rect(x,y, rowWidth,rowHeight)
       }
   }
 }
-
